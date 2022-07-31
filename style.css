@@ -1,0 +1,98 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+.header{
+    
+    background-color: #12474a;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+   
+
+}
+nav{
+    width: 85%;
+    height: 20%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+.logo{
+    color: white;
+    font-size: 40px;
+    letter-spacing: 3px;
+    cursor: pointer;
+
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    font-size: 18px;
+    margin: 10px 20px;
+}
+.menu ul li a:hover{
+   
+    font-size: 20px;
+    border: 1px solid white;
+    background-color: brown;
+    transition: .8s;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.text{
+  padding-left: 8%;
+  margin-top: 12%;
+  color: white;
+  text-align: center;
+
+}
+.text h1{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 18px;
+}
+.text p{
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+span{
+    color: brown;
+}
+.btn{
+    font-size: 18px;
+    padding: 10px;
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+.btn:hover{
+    background-color: brown;
+    padding: 20px;
+    border-radius: 35px;
+    transition: .9s;
+}
+    
+
+
+
